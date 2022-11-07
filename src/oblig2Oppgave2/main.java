@@ -2,7 +2,7 @@ package oblig2Oppgave2;
 import static javax.swing.JOptionPane.*;
 class Tallspill
 {
-    public int nyttTall() {
+    public int nyttTall() { //Nytt tall klassen lager et nytt tall
         int slumpeTall = (int) (Math.random() * 201) ;
         return slumpeTall;
     }
